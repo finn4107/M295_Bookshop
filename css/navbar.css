@@ -1,0 +1,85 @@
+.nav-container {
+  background-color: #3E2018;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 70px;
+  width: auto;
+  background-color: #F3E9DC;
+  border-style: none;
+  border-radius: 50px;
+}
+
+.navbar-elements {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  float: left;
+  position: fixed;
+  margin-left: 5%;
+}
+
+.navbar-element {
+  padding: 5px 20px;
+  font-family: "Grenze", serif;
+  font-size: 25px;
+  color: #F3E9DC;
+  text-decoration: none;
+}
+.navbar-elements li:last-child{
+  padding-left: 100%;
+}
+
+.navbar-element:hover, .navbar-login:hover {
+  background-color: #F3E9DC;
+  color: #3E2018;
+  border-radius: 25px;
+}
+
+.search-bar {
+  border-radius: 20px;
+  border: none;
+  font-family: "Noto Serif Bengali", serif;
+  font-size: 20px;
+  height: 40px;
+  margin-top: 16px;
+  margin-left: 1em;
+  padding-left: 20px;
+}
+
+.search-button {
+  border-radius: 20px;
+  border: 1px solid #EDD7BB;
+  background-color: #EDD7BB;
+  color: black;
+  font-family: "Grenze", serif;
+  font-size: 15px;
+  padding: 5px 20px;
+  margin-left: -85px;
+  margin-top: -3px;
+}
+
+.navbar-login:link{
+  text-decoration: none;
+  color: #F3E9DC;
+  border-style: none;
+  margin-top: 20px;
+}
+.navbar-login:hover{
+  text-decoration: none;
+  background-color: #F3E9DC;
+  color:#3E2018;
+  border-style: none;
+  border-radius: 25px;
+}

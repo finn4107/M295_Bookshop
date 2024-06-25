@@ -1,0 +1,103 @@
+html{
+    background-color: 	#F3E9DC;
+}
+.banner{
+    padding: 0px;
+    margin: -10px ;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.33);
+    background-color: #EDD7BB;
+}
+.content {
+    text-align: center;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+h1 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 100px;
+    text-align: center;
+    background-color: #EDD7BB;
+    margin-bottom: 50px;
+    padding:10px 0px 10px 0px ;
+    color:#3E2018;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Noto Serif Bengali", ;
+}
+p{
+    text-align: center;
+    font-family:"Noto Serif Bengali", serif ;
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+
+}
+
+.login-field{
+    border-radius: 12px;
+    border-style: none;
+    font-family: "Noto Serif Bengali", serif;
+    font-size: 20px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.39);
+    margin: 5px;
+    color: black;
+    height: 30px;
+    padding-left: 7px;
+    max-width: 230px;
+}
+.login-field::placeholder{
+    color: #A1A0A0;
+}
+.login-button{
+    border-radius: 12px;
+    border-style: none;
+    background-color: #EDD7BB;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.39);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0px 17px 0px 17px;
+    height: 35px;
+    max-width: 230px;
+    font-size: 20px;
+    font-family: "Noto Serif Bengali", serif;
+}
+.change-password, .change-password:visited{
+    text-decoration: none;
+    border-radius: 12px;
+    border-style: none;
+    color: black;
+    background-color: #EDD7BB;
+    margin-top: 5px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.39);
+    max-width: 230px;
+    font-size: 20px;
+    font-family: "Noto Serif Bengali", serif;
+    height: 30px;
+    padding: 6px 40px 6px 40px;
+}
+
+.admin-adjust, .admin-adjust:visited{
+    text-decoration: none;
+    border-radius: 12px;
+    border-style: none;
+    color: black;
+    background-color: #EDD7BB;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.39);
+    min-width: 150px;
+    font-size: 20px;
+    font-family: "Noto Serif Bengali", serif;
+    height: 30px;
+    padding: 6px 40px 6px 40px;
+    text-align: center;
+}
+.admin-content{
+    display: grid;
+    justify-items: center;
+    justify-content: space-evenly;
+}
